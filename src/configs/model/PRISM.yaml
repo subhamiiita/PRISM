@@ -1,0 +1,30 @@
+embedding_size: 64
+n_layers: 2
+
+learning_rate: 0.001
+learning_rate_scheduler: [0.96, 50]
+
+reg_weight: 1e-04
+knn_k: 10
+
+pretrain_epochs: 50
+beta: [0.5, 0.7]
+kb: [3, 5]
+lambda_infonce: 0.01
+lambda_ortho: 0.01
+lambda_pref: 0.1
+lambda_l2: 0.001
+temperature: 0.2
+verbose: 10
+stopping_step: 20
+
+# PRISM-specific: Calibrated Preference Graph
+cf_temperature: [0.3, 0.5]
+
+# PRISM-specific: Progressive Graph Refinement
+refine_step: 20
+gamma_init: 0.9
+gamma_final: 0.5
+
+seed: [2020, 2021, 2022]
+hyper_parameters: ["seed", "beta", "kb", "cf_temperature"]
