@@ -2,6 +2,9 @@
 src/plot_prism.py
 src/plot_architecture.py
 
+# Session summaries
+summary.md
+
 # Datasets (keep empty folder structure, ignore actual data files)
 data/*/*
 !data/*/.gitkeep
