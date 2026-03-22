@@ -1,5 +1,10 @@
-# Datasets
-data/
+# Plot scripts
+src/plot_prism.py
+src/plot_architecture.py
+
+# Datasets (keep empty folder structure, ignore actual data files)
+data/*/*
+!data/*/.gitkeep
 
 # PDFs
 *.pdf
