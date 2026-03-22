@@ -36,9 +36,3 @@ Hyperparameters are configured in `src/configs/model/PRISM.yaml`. Set list value
 
 ---
 
-## Results (Recall@10 / NDCG@10, mean ± std over 3 seeds)
-
-| Model    | Baby R@10 | Baby N@10 | Sports R@10 | Sports N@10 | Clothing R@10 | Clothing N@10 |
-|----------|-----------|-----------|-------------|-------------|---------------|---------------|
-| MGCN     | 0.0620    | 0.0339    | 0.0729      | 0.0397      | 0.0641        | 0.0347        |
-| **PRISM**| **0.0641±0.0007** | **0.0346±0.0005** | **0.0754±0.0008** | **0.0416±0.0006** | **0.0672±0.0009** | **0.0368±0.0007** |
